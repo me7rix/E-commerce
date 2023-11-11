@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <div class="logo__menu">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+                <div>Каталог автомобилей</div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav__item"><a href="#contact">Заказать</a></div>
+            <div class="nav__item"><a href="">О нас</a></div>
+            <div class="nav__item"><a href="">Контакты</a></div>
+        </nav>
+        <div class="header__icon">
+            <div>
+                <i class='bx bx-basket'></i>
+            </div>
+            <div>
+                <span>(0)</span>
+            </div>
+        </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home__content">
+            <div class="home__content-title">Премиум автомобили только самых быстрых</div>
+            <div class="home__content-subtitle">Экономим ваше время и сохраняем <br> ваше здоровье и тело!</div>
+            <a href="#autos" class="btn">Выбрать автомобиль</a>
+        </div>
+        <div class="home-img">
+            <div class="title-img">
+                <img src="img/title.png" alt="">
+            </div>
+            <div class="round">
+                <div class="i-round"><i class='bx bx-play'></i></div>
+            </div>
+            <div class="text-line">
+                Посмотрите, насколько <br> хорошее управление <br> автомобилем
+            </div>
+            <div class="line">
+                <img src="img/line.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="autos" id="autos">
+        <div class="autos-title">
+            <h2 class="heading">Выберите автомобиль</h2>
+            <div class="arrows">
+                <i class='bx bx-left-arrow-alt'></i>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+        </div>
+        <div class="autos-container">
+            <div class="auto-box">
+                <div class="auto-img">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div class="auto-content">
+                    <div class="auto-info">
+                        <div class="auto-marka">Infinity Q60</div>
+                        <div class="auto-litr">400 л.с.</div>
+                    </div>
+                    <div class="auto-link">
+                        <div><i class='bx bx-right-arrow-alt' ></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="auto-box">
+                <div class="auto-img">
+                    <img src="img/2.png" alt="">
+                </div>
+                <div class="auto-content">
+                    <div class="auto-info">
+                        <div class="auto-marka">Ford Mustang</div>
+                        <div class="auto-litr">480 л.с.</div>
+                    </div>
+                    <div class="auto-link">
+                        <div><i class='bx bx-right-arrow-alt' ></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="auto-box">
+                <div class="auto-img">
+                    <img src="img/3.png" alt="">
+                </div>
+                <div class="auto-content">
+                    <div class="auto-info">
+                        <div class="auto-marka">Chevrolet Corvette</div>
+                        <div class="auto-litr">670 л.с.</div>
+                    </div>
+                    <div class="auto-link">
+                        <div><i class='bx bx-right-arrow-alt' ></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="autos-buttons">
+            <div class="autos-button"></div>
+            <div class="autos-button autos-button-active"></div>
+            <div class="autos-button"></div>
+            <div class="autos-button"></div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__content">
+            <h2 class="heading">Закажите свой автомобиль</h2>
+            <p>Выберите автомобиль , заполните данные и наш менеджер свяжется с вами для подтверждения заказа</p>
+        </div>
+        <div class="contact__form">
+            <form action="">
+                <select class="input" name="" id="">
+                    <option value="">Выбрать автомобиль</option>
+                    <option value="">Infinity Q60</option>
+                    <option value="">Ford Mustang</option>
+                    <option value="">Chevrolet Corvette</option>
+                </select>
+                <input class="input" type="text" name="" id="" placeholder="Ваше имя">
+                <input class="input" type="number" name="" id="" placeholder="Ваш телефон">
+                <input type="submit" value="Выбрать автомобиль" class="btn input-btn">
+            </form>
+        </div>
+        <div class="contact-img">
+            <img src="img/salon.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="footer__contact">
+            <div class="svyaz">Мы на связи с вами</div>
+            <div class="number">+7 (977) 443 73 83</div>
+        </div>
+    </footer>
+</body>
+</html>
